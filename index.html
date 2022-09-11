@@ -1,0 +1,336 @@
+<!---->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Aula 08/09/2022</title>
+    </head>
+    <body>
+        <header class="intro">
+            <h1>CSS - Revisão</h1>
+            <h2>Utilizando html5 e CSS</h2>
+            <h3>com o uso do CSS 3 tornamos o projeto mais estiloso e elegante </h3>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">fature</a></li>
+                <li><a href="#">article</a></li>
+                <li><a href="#">archives</a></li> 
+                <li><a href="#">apress</a></li>
+                
+            </ul>
+        </nav>
+        <!--área de conteudo-->
+        <div id="ContentArea">
+            <div id="mainContent">
+                <!--seção principal-->
+
+                <section class="rounded">
+                    <header>
+                        <h2>Conteúdo Principal</h2>
+                    </header>
+                    <p>Lorem ipsum dolor sit feugiat lide tornamos naso tierra
+                        com impacto nihil id ratione ea sunt quis dolorem dolore  
+                        earum
+                    </p>
+                </section>
+                <section>
+                    <article class="featureContent">
+                        <a id="feature"></a>
+                        <header>
+                            <h2>featured Article</h2>
+                        </header>
+                        <div class="rotateContainer">
+                            <p>Lorem ipsum dolor sit amet lide</p>
+                            <img width="85px" height="85px" class="rotate" id="phone" src="img/meme.jpg" alt="phonebooth"><br>
+                            <input type="range" min="-180" max="180" value="0" step="18" onchange="rotateImage(this.value)">
+                            <p>Nulla finibus eros risus, a mattis magna placerat ut. Suspendisse hendrerit neque sapien, 
+                                id feugiat libero pellentesque at. Etiam risus mi, vulputate eget magna sed, ullamcorper 
+                                pretium est. Maecenas sollicitudin eros suscipit, aliquet lacus eu, vulputate velit. Quisque 
+                                a sem mauris. Suspendisse potenti. Proin ut interdum erat. Nunc vestibulum risus in metus mattis, 
+                                ac convallis ligula tristique. Nam nec blandit sem, non varius libero.
+                             </p>
+                             <p>
+                                 Nulla finibus eros risus, a mattis magna placerat ut. Suspendisse hendrerit neque sapien, 
+                                id feugiat libero pellentesque at. Etiam risus mi, vulputate eget magna sed, ullamcorper 
+                                pretium est. Maecenas sollicitudin eros suscipit, aliquet lacus eu, vulputate velit. Quisque 
+                                a sem mauris. Suspendisse potenti. Proin ut interdum erat. Nunc vestibulum risus in metus mattis, 
+                                ac convallis ligula tristique. Nam nec blandit sem, non varius libero.
+                             </p>
+                             <p>
+                                 Nulla finibus eros risus, a mattis magna placerat ut. Suspendisse hendrerit neque sapien, 
+                                id feugiat libero pellentesque at. Etiam risus mi, vulputate eget magna sed, ullamcorper 
+                                pretium est. Maecenas sollicitudin eros suscipit, aliquet lacus eu, vulputate velit. Quisque 
+                                a sem mauris. Suspendisse potenti. Proin ut interdum erat. Nunc vestibulum risus in metus mattis, 
+                                ac convallis ligula tristique. Nam nec blandit sem, non varius libero.
+                             </p>
+                            
+                        </div>
+                    </article>
+                     <!--conteudo outro-->
+                    <article class="otherContent">
+                       <a id="other"></a>
+                       <header>
+                        <h3>Bordas arredondadas</h3>
+                       </header>
+                       <div>
+                        <p>Details about rounded corners</p>
+                        <p>
+                            One of the most common features that you'll hear 
+                            about is the use of rounded corners and we'll cover 
+                            that here. Also, by configuring the div size and 
+                            radius properly you can also make circular divs
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>
+                        <p>
+                            One of the most common features that you'll hear 
+                            about is the use of rounded corners and we'll cover 
+                            that here. Also, by configuring the div size and 
+                            radius properly you can also make circular divs
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>  
+                        <p>
+                            One of the most common features that you'll hear 
+                            about is the use of rounded corners and we'll cover 
+                            that here. Also, by configuring the div size and 
+                            radius properly you can also make circular divs
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>    
+                        <p>
+                            One of the most common features that you'll hear 
+                            about is the use of rounded corners and we'll cover 
+                            that here. Also, by configuring the div size and 
+                            radius properly you can also make circular divs
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>
+                        <p>
+                            One of the most common features that you'll hear 
+                            about is the use of rounded corners and we'll cover 
+                            that here. Also, by configuring the div size and 
+                            radius properly you can also make circular divs
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>  
+                        <p>
+                            One of the most common features that you'll hear 
+                            about is the use of rounded corners and we'll cover 
+                            that here. Also, by configuring the div size and 
+                            radius properly you can also make circular divs
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>
+                        
+                       </div>
+                    </article>
+                    <article class="otherContent">
+                        <a id="another"></a>
+                        <header>
+                         <h3>outros assuntos</h3>
+                        </header>
+                        <div>
+                            <p>More things to say...</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Proin luctus tincidunt justo nec tempor. 
+                            Aliquam erat volutpat. Fusce facilisis ullamcorper 
+                            consequat. Vestibulum non sapien lectus. Nam mi 
+                            augue, posuere at tempus vel, dignissim vitae nulla. 
+                            Nullam at quam eu sapien mattis ultrices. Quisque 
+                            quis leo mi, at lobortis dolor. Nullam scelerisque 
+                            facilisis placerat. Fusce a augue erat, malesuada 
+                            euismod dui. Duis iaculis risus id felis volutpat 
+                            elementum. Fusce blandit iaculis quam a cursus. 
+                            Cras varius tincidunt cursus. Morbi justo eros, 
+                            adipiscing ac placerat sed, posuere et mi. 
+                            Suspendisse vulputate viverra aliquet. Duis non 
+                            enim a nibh consequat mollis ac tempor lorem. 
+                            Phasellus elit leo, semper eu luctus et, suscipit 
+                            at lacus. In hac habitasse platea dictumst. Duis 
+                            dignissim justo sit amet nulla pulvinar sodales.        
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Proin luctus tincidunt justo nec tempor. 
+                            Aliquam erat volutpat. Fusce facilisis ullamcorper 
+                            consequat. Vestibulum non sapien lectus. Nam mi 
+                            augue, posuere at tempus vel, dignissim vitae nulla. 
+                            Nullam at quam eu sapien mattis ultrices. Quisque 
+                            quis leo mi, at lobortis dolor. Nullam scelerisque 
+                            facilisis placerat. Fusce a augue erat, malesuada 
+                            euismod dui. Duis iaculis risus id felis volutpat 
+                            elementum. Fusce blandit iaculis quam a cursus. 
+                            Cras varius tincidunt cursus. Morbi justo eros, 
+                            adipiscing ac placerat sed, posuere et mi. 
+                            Suspendisse vulputate viverra aliquet. Duis non 
+                            enim a nibh consequat mollis ac tempor lorem. 
+                            Phasellus elit leo, semper eu luctus et, suscipit 
+                            at lacus. In hac habitasse platea dictumst. Duis 
+                            dignissim justo sit amet nulla pulvinar sodales.        
+                        </p><p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Proin luctus tincidunt justo nec tempor. 
+                            Aliquam erat volutpat. Fusce facilisis ullamcorper 
+                            consequat. Vestibulum non sapien lectus. Nam mi 
+                            augue, posuere at tempus vel, dignissim vitae nulla. 
+                            Nullam at quam eu sapien mattis ultrices. Quisque 
+                            quis leo mi, at lobortis dolor. Nullam scelerisque 
+                            facilisis placerat. Fusce a augue erat, malesuada 
+                            euismod dui. Duis iaculis risus id felis volutpat 
+                            elementum. Fusce blandit iaculis quam a cursus. 
+                            Cras varius tincidunt cursus. Morbi justo eros, 
+                            adipiscing ac placerat sed, posuere et mi. 
+                            Suspendisse vulputate viverra aliquet. Duis non 
+                            enim a nibh consequat mollis ac tempor lorem. 
+                            Phasellus elit leo, semper eu luctus et, suscipit 
+                            at lacus. In hac habitasse platea dictumst. Duis 
+                            dignissim justo sit amet nulla pulvinar sodales.        
+                        </p><p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Proin luctus tincidunt justo nec tempor. 
+                            Aliquam erat volutpat. Fusce facilisis ullamcorper 
+                            consequat. Vestibulum non sapien lectus. Nam mi 
+                            augue, posuere at tempus vel, dignissim vitae nulla. 
+                            Nullam at quam eu sapien mattis ultrices. Quisque 
+                            quis leo mi, at lobortis dolor. Nullam scelerisque 
+                            facilisis placerat. Fusce a augue erat, malesuada 
+                            euismod dui. Duis iaculis risus id felis volutpat 
+                            elementum. Fusce blandit iaculis quam a cursus. 
+                            Cras varius tincidunt cursus. Morbi justo eros, 
+                            adipiscing ac placerat sed, posuere et mi. 
+                            Suspendisse vulputate viverra aliquet. Duis non 
+                            enim a nibh consequat mollis ac tempor lorem. 
+                            Phasellus elit leo, semper eu luctus et, suscipit 
+                            at lacus. In hac habitasse platea dictumst. Duis 
+                            dignissim justo sit amet nulla pulvinar sodales.        
+                        </p><p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Proin luctus tincidunt justo nec tempor. 
+                            Aliquam erat volutpat. Fusce facilisis ullamcorper 
+                            consequat. Vestibulum non sapien lectus. Nam mi 
+                            augue, posuere at tempus vel, dignissim vitae nulla. 
+                            Nullam at quam eu sapien mattis ultrices. Quisque 
+                            quis leo mi, at lobortis dolor. Nullam scelerisque 
+                            facilisis placerat. Fusce a augue erat, malesuada 
+                            euismod dui. Duis iaculis risus id felis volutpat 
+                            elementum. Fusce blandit iaculis quam a cursus. 
+                            Cras varius tincidunt cursus. Morbi justo eros, 
+                            adipiscing ac placerat sed, posuere et mi. 
+                            Suspendisse vulputate viverra aliquet. Duis non 
+                            enim a nibh consequat mollis ac tempor lorem. 
+                            Phasellus elit leo, semper eu luctus et, suscipit 
+                            at lacus. In hac habitasse platea dictumst. Duis 
+                            dignissim justo sit amet nulla pulvinar sodales.        
+                        </p><p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Proin luctus tincidunt justo nec tempor. 
+                            Aliquam erat volutpat. Fusce facilisis ullamcorper 
+                            consequat. Vestibulum non sapien lectus. Nam mi 
+                            augue, posuere at tempus vel, dignissim vitae nulla. 
+                            Nullam at quam eu sapien mattis ultrices. Quisque 
+                            quis leo mi, at lobortis dolor. Nullam scelerisque 
+                            facilisis placerat. Fusce a augue erat, malesuada 
+                            euismod dui. Duis iaculis risus id felis volutpat 
+                            elementum. Fusce blandit iaculis quam a cursus. 
+                            Cras varius tincidunt cursus. Morbi justo eros, 
+                            adipiscing ac placerat sed, posuere et mi. 
+                            Suspendisse vulputate viverra aliquet. Duis non 
+                            enim a nibh consequat mollis ac tempor lorem. 
+                            Phasellus elit leo, semper eu luctus et, suscipit 
+                            at lacus. In hac habitasse platea dictumst. Duis 
+                            dignissim justo sit amet nulla pulvinar sodales.        
+                        </p>
+                         
+                        </div>
+                     </article>
+                </section>
+            </div>
+                <aside id="sidebar">
+                    <h3>outros titulos</h3>
+                    <div id="moon"> </div>
+                        <p>cheque a seção apress para mais titulos disponiveis</p>
+                        <section id="titles">
+                            <article class="book">
+                                <header>
+                                    <a href="http://www.apress.com/9781430240747"><img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4302-4075-4?as=webp" alt=""></a>
+                                </header>
+                                <p>Nulla finibus eros risus, a mattis magna placerat ut. Suspendisse hendrerit neque sapien, 
+                                    id feugiat libero pellentesque at. Etiam risus mi, vulputate eget magna sed, ullamcorper 
+                                    pretium est. Maecenas sollicitudin eros suscipit, aliquet lacus eu, vulputate velit. Quisque 
+                                    a sem mauris. Suspendisse potenti. Proin ut interdum erat. Nunc vestibulum risus in metus mattis, 
+                                    ac convallis ligula tristique. Nam nec blandit sem, non varius libero</p>
+                            </article>
+                            <article class="book">
+                                <header>
+                                    <a href="http://www.apress.com/9781430240747"><img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4302-4075-4?as=webp"></a> 
+                                </header>
+                                <p>Nulla finibus eros risus, a mattis magna placerat ut. Suspendisse hendrerit neque sapien, 
+                                    id feugiat libero pellentesque at. Etiam risus mi, vulputate eget magna sed, ullamcorper 
+                                    pretium est. Maecenas sollicitudin eros suscipit, aliquet lacus eu, vulputate velit. Quisque 
+                                    a sem mauris. Suspendisse potenti. Proin ut interdum erat. Nunc vestibulum risus in metus mattis, 
+                                    ac convallis ligula tristique. Nam nec blandit sem, non varius libero</p>
+                            </article>
+                            <article class="book">
+                                <header>
+                                    <a href="http://www.apress.com/9781430240747"><img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4302-4075-4?as=webp"></a> 
+                                </header>
+                                <p>Nulla finibus eros risus, a mattis magna placerat ut. Suspendisse hendrerit neque sapien, 
+                                    id feugiat libero pellentesque at. Etiam risus mi, vulputate eget magna sed, ullamcorper 
+                                    pretium est. Maecenas sollicitudin eros suscipit, aliquet lacus eu, vulputate velit. Quisque 
+                                    a sem mauris. Suspendisse potenti. Proin ut interdum erat. Nunc vestibulum risus in metus mattis, 
+                                    ac convallis ligula tristique. Nam nec blandit sem, non varius libero</p>
+                            </article>
+                            <article class="book">
+                                <header>
+                                    <a href="http://www.apress.com/9781430240747"><img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4302-4075-4?as=webp"></a> 
+                                </header>
+                                <p>Nulla finibus eros risus, a mattis magna placerat ut. Suspendisse hendrerit neque sapien, 
+                                    id feugiat libero pellentesque at.</p>
+                            </article>
+                        </section>
+                   
+                </aside>
+            
+        </div>
+        <footer>
+            <p>
+                Last Update <time datetime="2022-05-12T20:32:22+05:00">Sept 12th 2022</time>
+                by <a href="https://www.thecreativepeople.com" target="_blank">Mark 3. Collins</a>
+            </p>
+        </footer>
+    </body>
+</html>
